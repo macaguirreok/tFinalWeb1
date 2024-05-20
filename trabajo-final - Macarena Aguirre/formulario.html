@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="js/validaciones.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        
+        <header class="header">
+            <nav class="nav">
+              <ul>
+                <li> <img style="position:relative;bottom:1.3em;" src="img/fondos/logo1.jpg" alt="Logo"></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="categ2.html">Categorías</a></li>
+                <li><a href="recomendaciones.html">Sugerencias</a></li>
+               <div  class="contacto"><li><a href="formulario.html">Contacto</a></li></div>
+            </ul>
+            </nav>
+        </header>
+
+   
+
+    <div class="psicologia">
+        <div class="centrar">
+<form class="form" method="get" action="formulario.php" name="fvalida">
+        <h3>¡Quiero recibir novedades!</h3>   
+
+        <!--Información personal-->
+
+    <fieldset>
+    <legend>Información personal</legend>
+    <label for="nombre">Nombre:</label>
+    <input type="text" placeholder="Escriba su nombre" id="nombre">
+    <p></p>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" placeholder="Escriba su apellido">
+    <p></p>
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date" id="fecha">
+    <p></p>
+    <label>Género:</label>
+    <p></p>
+    <label for="radio_f">Femenino:</label>
+    <input type="radio" id="radio_f">
+    <p></p>
+    <label for="radio_m">Masculino:</label>
+    <input type="radio" id="radio_m">
+    <p></p>
+    <label for="radio_o">Otro:</label>
+    <input type="radio" id="radio_o">
+    </fieldset>
+    <p></p>
+    
+    <!--información de contacto-->
+    
+    <fieldset>
+    <legend>Información de contacto</legend>
+    <label for="mail">Mail:</label>
+    <input type="email" id="mail" placeholder="Escriba su mail">
+    <label id="sp0">*</label>
+    <p></p>
+    <label>Teléfono:</label>
+    <input type="tel" id="telefono" placeholder="Escriba su teléfono">
+    <p></p>
+    <label for="direccion">Dirección:</label>
+    <textarea id="direccion">Escriba su dirección</textarea>
+    </fieldset>
+    <p></p>
+    
+    <!--preferencias-->
+    
+    <fieldset>
+    <legend>Preferencias</legend>
+    <label for="selector">Seleccione su categoría favorita:</label>
+    <select id="selector">
+    <option></option>    
+    <option>Romance</option>
+    <option>Juvenil</option>
+    <option>Espiritualidad</option>
+    <option>Fantasía</option>
+    <option>Psicología</option>
+    <option>Crecimiento personal</option>
+    </select>
+    <label id="sp1">*</label>
+    <p></p>
+    <label for="acepto">Acepto los términos y condiciones</label>
+    <input type="checkbox" id="acepto">
+    <label id="sp2">*</label>
+    </fieldset>
+    <p></p>
+    <button type="button" onclick="valida()">Registrarse</button>
+    <p></p>
+</form>
+    </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &#169</p>
+    </footer>
+
+    </div>
+</body>
+</html>

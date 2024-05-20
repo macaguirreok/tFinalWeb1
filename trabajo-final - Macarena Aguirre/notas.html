@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/notas.css">
+    <script src="js/notas.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        
+        <header class="header">
+            <nav class="nav">
+              <ul>
+                <li> <img style="position:relative;bottom:1.3em;" src="img/fondos/logo1.jpg" alt="Logo"></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="categ2.html">Categorías</a></li>
+                <li><a href="recomendaciones.html">Sugerencias</a></li>
+               <div  class="contacto"><li><a  target="_blank" href="formulario.html">Contacto</a></li></div>
+            </ul>
+            </nav>
+        </header>
+
+        <aside class="aside">
+            <h2>NOTAS</h2>
+            <p>Puedes ingresar notas a medida que lees o escuchas el libro.
+            </p>
+
+           
+
+            <div class="centrarAside">
+            <div class="mostrarNotas">
+           <!--Acá se van a mostrar las notas:-->
+            </div>
+
+            <br>
+
+            <textarea id="notas">Ingrese sus notas</textarea>
+            <br>
+            <button onclick="mostrarNota()">mostrar nota</button>
+            </div>
+        </aside>
+
+   
+    
+    <div class="psicologia">
+        <h3 class="titulo-libro">Libro uno</h3>
+        <p id="podesSubrayar">Puedes subrayar el texto, haciendo click y luego deslizando.</p>
+        <div class="centrar">
+       
+            <div class="alapar">
+                
+                <img class="img" src="img/Espiritualidad/planAlma.jpg" alt="alas de hierro">
+                 
+                <!--donde se va a mostrar el libro:-->
+                <div id="mostrarLibro">
+                  <p id="libroCompleto">Prólogo
+
+                    El veinticinco de febrero de 1969, Christina, de veinte años
+                     de edad, auxiliar administrativa en
+                    el departamento de ciencias políticas de la universidad de Pomona, en Claremont, California,
+                    fue al buzón situado en el sótano del edificio para recoger la correspondencia de su jefe. En el
+                    momento en el que tocó un paquete que había en el buzón estalló una bomba que la lanzó al
+                    otro extremo de la habitación. El aire se llenó de polvo y hollín; trozos de madera de más de dos
+                    metros salieron disparados contra el muro de cemento a su espalda. Las llamas le quemaron el
+                    rostro y la dejaron temporalmente ciega. La explosión le mutiló dos dedos de la mano derecha y
+                    le rompió ambos tímpanos.
+                    Christina había planeado esta experiencia antes de nacer. Y ella sabe por qué.
+                    
+                    Prefacio
+
+                    En mayo de 2003 yo llevaba una vida carente de sentido como asesor de marketing y
+                    comunicaciones.
+                    Aunque una parte de mi trabajo no me disgustaba, tampoco me satisfacía profundamente.
+                    Con frecuencia pensaba que, si yo desapareciera de la faz de la Tierra, mis clientes ni siquiera
+                    se darían cuenta; pondrían sin más a otro en mi lugar. Y lo más importante, sentía que mi vida
+                    no era la expresión de mi alma. Como persona espiritual, aunque no religiosa, anhelaba hacer
+                    una contribución al mundo que fuera "únicamente mía", pero no tenía ni idea de qué podría ser.
+                    Había agotado las vías que generalmente se utilizan para encontrar un significado y un
+                    propósito. Estaba perdido y confuso. De pronto, me vino la idea: ¿por qué no consultar a un
+                    médium? Aunque mi creencia en Dios erá sólida, nunca había tenido experiencias
+                    metafísicas, al menos hasta donde yo era consciente. No tenía nada que perder. Me informé
+                    sobre algunos médiums, y seleccioné a alguien con quien me sintiera cómodo.
+                    Mi sesión con la médium tuvo lugar el día siete de mayo de 2003. Recuerdo la fecha exacta
+                    porque ese día cambió mi vida. A la médium le conté muy poco sobre mí mismo, describiendo mis
+                    circunstancias sólo en términos muy generales. Ella me explicó que cada uno de nosotros
+                    tenemos guías espirituales, seres con los que planeamos nuestras vidas antes de la encarnación.
+                    A través de ella pude hablar con los míos. Ellos lo sabían todo sobre mí... No sólo lo que había
+                    hecho, sino también lo que había pensado y sentido. Por ejemplo, se refirieron a una oración
+                    concreta que había elevado a Dios unos cinco años antes.
+                    En un momento especialmente difícil había rezado, "Dios, no puedo hacer esto solo. Por
+                    favor, envíame ayuda". Mis guías me contaron que se me había proporcionado asistencia
+                    adicional. "Tu oración fue respondida", me dijeron. Me quedé atónito.
+                    Ansioso por comprender el sufrimiento que había experimentado, pregunté a mis guías sobre
+                    los grandes obstáculos a los que me había tenido que enfrentar. Me explicaron que yo planeé
+                    esas dificultades antes de nacer. No con el propósito de sufrir, sino por el crecimiento que me
+                    aportarían. Esta información me conmocionó. Mi mente consciente no sabía nada de planificación prenatal, aunque yo, intuitivamente, sentí que sus palabras eran ciertas.
+                    Aunque no me di cuenta en aquel momento, mi sesión con la médium desencadenó en mí un
+                    profundo despertar espiritual.
+                    Más tarde comprendería que ese despertar había sido en realidad un recordar, un recordar
+                    quién soy como alma eterna y, más concretamente, qué planeé hacer en la Tierra.
+                    Durante las siguientes semanas seguí con mi vida como siempre, aunque la información
+                    recibida de mis guías estaba constantemente en mi mente. No sabía qué hacer con ella. Una
+                    tarde me tomé un descanso del trabajo, fui a dar un paseo y tuve una experiencia incluso más
+                    profunda que mi sesión con la médium. iDe repente sentí un amor abrumador e incondicional
+                    por todas las personas que veía! No hay palabras que puedan adecuadamente expresar el
+                    poder de aquel amor. Fue de una intensidad y una profundidad que nunca antes había experimentado, y que ni sabía que se pudiera alcanzar. Sentí un amor puro e ilimitado hacia cada
+                    persona que veía (la madre que empujaba el carrito de su bebé, el taxista que esperaba un
+                    pago, el niño que jugaba en la esquina, el barbero que cortaba cabello tras la ventana de su
+                    barbería, etc.).
+                    Aunque nunca antes había oído hablar de una experiencia así, intuitivamente supe lo que
+                    estaba ocurriendo: estaba en comunión con mi alma. De hecho, mi alma estaba diciéndome,
+                    
+                    "Tú eres este amor". Ahora creo que mi alma me regaló esa experiencia para facilitarme el
+                    trabajo que pronto comenzaría.
+                    Me obsesioné con las lecturas sobre espiritualidad y metafísica. Mientras leía, pensaba con
+                    frecuencia sobre la planificación prenatal. Durante toda mi vida había visto mis retos sólo como
+                    sufrimientos sin sentido, y su ocurrencia como algo aleatorio y arbitrario. De haber sabido que yo
+                    mismo había planeado aquellas dificultades, las habría visto con un propósito. Tan sólo ese
+                    conocimiento ya habría aliviado en gran parte mi sufrimiento. Si además hubiera sabido por qué
+                    las planeé, habría aprendido conscientemente las lecciones que me ofrecían. Los sentimientos de
+                    miedo, ira, resentimiento, culpa, y autocompasión habrían sido reemplazados por un enfoque en el
+                    crecimiento. Quizá incluso me habría sentido agradecido por tales problemas.
+                    Durante aquel periodo de intenso estudio y exploración interior, conocí a una mujer que era
+                    capaz de canalizar su alma, y que me permitió hablar con ella sobre la planificación prenatal. Yo
+                    no sabía nada sobre canalización, por lo que cuando ella entró en trance y otra consciencia,
+                    claramente distinta a la suya, comenzó a hablar a través de ella, me cogió totalmente desprevenido. En el trascurso de cinco sesiones hablé con su alma durante quince horas.
+                    Estas conversaciones fueron emocionantes. Confirmaron y complementaron mis lecturas y
+                    mi estudio. Su alma me habló con detalle sobre su propia planificación prenatal, las distintas
+                    vivencias que habían sido consideradas, y las razones por las que algunas de ellas se
+                    seleccionaron. Entonces tuve una confirmación concreta y directa de un fenómeno del que muy
+                    poca gente es consciente. El dolor experimentado en mi vida me había hecho extremadamente
+                    sensible al sufrimiento de los demás, y hacía que me sintiese plenamente motivado a aliviarlo.
+                    Me entusiasmaba la posibilidad del potencial alivio que el hecho de tomar conciencia de la
+                    planificación prenatal podía brindar a la humanidad. Sabía que la información que había
+                    descubierto podía aliviar el sufrimiento, y dar a las dificultades de la vida un propósito y un
+                    significado nuevos. Como resultado, decidí escribir un libro sobre este asunto para poder
+                    compartir su importancia con los demás.
+                    Sin embargo, la incertidumbre de dejar atrás el pasado empañó mi entusiasmo por mi
+                    nuevo camino. Aunque insatisfactorio, al menos era cómodo y conocido. No obstante, seguí
+                    adelante (de hecho, me sentí obligado a hacerlo) por la oportunidad de expresarme sirviendo
+                    de ayuda al mundo, y por la seguridad del conocimiento adquirido al experimentar directamente
+                    la conexión con mi alma.
+                    Al principio pensé que la idea del libro se había originado en esta vida. Sin embargo, la
+                    verdad es que sólo había recordado mi propia planificación prenatal. Trabajando con varios
+                    médiums y canalizadores de gran talento, descubrí que no sólo había planeado escribir un libro
+                    sobre este tema, sino que también planeé entrevistar al menos a una de las personas cuya historia
+                    aparece en estas páginas. En total, tuve docenas de sesiones con médiums y canalizadores, en las
+                    cuales hablé con muchos seres espirituales sabios sobre mis vivencias, y sobre la planificación
+                    prenatal en general. En este libro, te ofrezco lo que ellos me enseñaron.
+                    Ahora comprendo por qué planeé ciertos obstáculos para mí: quise hacer el viaje que muchos
+                    de los que leerán este libro podrían igualmente haber hecho. También yo, a veces me sentí una
+                    victima del universo y culpé a los demás de las cosas "malas" que me pasaban. Las dificultades y
+                    los sufrimientos me parecían inútiles, y cuando no los resolvía del modo en que me hubiera
+                    gustado, dudaba de mi valía. Pero con el conocimiento de la planificación prenatal, ahora me doy
+                    cuenta de que es posible una perspectiva totalmente distinta sobre los retos de la vida. Al escribir
+                    El plan de tu alma, me propuse enseñar lo que yo más había necesitado aprender.
+                    
+                    Para vivir los planes que hiciste antes de nacer hace falta valor. Mi deseo, mi más ferviente
+                    anhelo, es que reconozcas el tremendo valor que muestras en cada momento de cada día
+                    cuando, con cada respiración, reafirmas tu decisión de aceptar y aprender de tus propios
+                    obstáculos. Con este reconocimiento, hallarás tu alma.
+                    
+                    Capítulo 1
+                    Introducción
+                    Para investigar la planificación prenatal de los retos de lavida, colaboré con cuatro
+                    médiums y canalizadoras extraordinariamente dotadas. Juntos obtuvimos información sobre los
+                    planes previos a la encarnación de docenas de personas, diez de las cuales comparten sus
+                    historias con nosotros en este libro. En esta introducción os relataré cómo encontré a estas personas, cómo los médiums y yo estudiamos su planificación prenatal, y también lo que es la
+                    mediumnidad y la canalización en general. Los fundamentos conceptuales de la planificación prenatal (esto es, las razones por las que nosotros, como almas, elegimos encarnarnos y
+                    experimentar vivencias) los presentaré en el capítulo 1.
+
+                    CÓMO ENCONTRÉ A LOS ENTREVISTADOS
+                    Todos ellos contestaron a mensajes que escribí en grupos de noticias y en foros de
+                    Internet. En algunos casos, pedí concretamente personas que fueran conscientes o al menos
+                    que no rechazaran la posibilidad de la planificación prenatal. En otras ocasiones, expresé mi
+                    interés por encontrar personas que pudieran hablar de sus vivencias dentro de un contexto
+                    metafísico. A veces, simplemente pregunté por personas que quisieran conversar sobre el
+                    significado espiritual que subyace en las dificultades a las que se habían enfrentado. Busqué
+                    variedad y equilibrio en sus experiencias y antecedentes. Generalmente, los entrevistados dijeron
+                    que les motivaba el deseo de ayudar a quienes se enfrentaban a la misma dificultad que ellos. De
+                    los diez que fueron finalmente seleccionados para este libro, tres usaron seudónimos, y todos
+                    afirmaron que les gustaría recibir noticias de los lectores. Encontrarás su información de
+                    contacto en el apéndice A.
+                    Ocho de los diez entrevistados planearon el obstáculo de su vida como una experiencia
+                    principal; esto es, buscaron el reto en las etapas iniciales de su planificación prenatal y sabían
+                    que era muy probable que este hecho tuviera lugar. Una de ellas (Doris, capítulo 2) planeó el reto
+                    de su vida como una experiencia secundaria, lo que quiere decir que el hecho vendría
+                    determinado por su respuesta a un reto anterior. Otro de ellos (Bob, capítulo 4) no seleccionó
+                    sus vivencias durante la planificación prenatal inicial, sino que creó un programa de vida nuevo a
+                    nivel del alma tras sufrir un suceso inesperado en su nacimiento. De los muchos planes prenatales
+                    que he examinado, estos casos fueron los únicos en los que el desafío no fue diseñado como la
+                    experiencia principal. He incluido estos relatos porque ilustran cómo nosotros, somos conscientes de las distintas bifurcaciones que existen en el camino del
+                    crecimiento personal, y las usamos.
+                    Cuando leas estos casos, probablemente te preguntarás si tú planeaste o no los
+                    acontecimientos de tu propia vida. Mi investigación me lleva a pensar que la amplia mayoría de
+                    los acontecimientos importantes de la vida es, efectivamente, programada.
+                    En general, cuanto más profundo es el reto, más probable es que fuera elegido antes de nacer. Si
+                    una experiencia concreta es lo suficientemente importante como para que te cuestiones si la
+                    planeaste tú, es probable que lo hicieras. Una excepción importante, sin embargo, es la que
+                    tiene que ver con las experiencias que nuestra intuición nos advierte que evitemos. Cuando ignoramos las señales de nuestra intuición nos exponemos a dificultades no planeadas; por ello,
+                    debemos reconocer y atender en todo momento las "señales de peligro" internas.
+                    Sin embargo, no es mi intención sugerir que todas las dificultades de la vida están
+                    planeadas, ni como probabilidades ni como posibilidades.
+                    Al encarnarnos tenemos libre albedrío, y podemos ejercitar nuestra libertad para crear
+                    acontecimientos que no son parte de nuestra planificación prenatal. Aquí la palabra clave es
+                    crear. Estoy seguro de que nosotros somos los creadores de todo lo que experimentamos, y que
+                    las dificultades no planeadas suceden cuando las atraemos, porque necesitamos la sabiduría que
+                    pueden engendrar (en estos casos la intuición no nos apartará de ese aprendizaje que
+                    necesitamos). Nuestro crecimiento se deriva de las experiencias, las hayamos planeado, o no.
+                    Por lo tanto, este libro será muy útil si te centras en por qué habrías planeado un reto concreto en
+                    tu vida, y no en si lo hiciste.
+                    Abordaremos la pregunta por qué al leer los casos de otras planificaciones prenatales. En
+                    ellas captarás ecos de la tuya propia. Te sugiero que no limites tu lectura sólo a las historias que
+                    tengan que ver con retos a los que tú o tus seres queridos os habéis enfrentado. Dificultades
+                    que aparentemente son totalmente distintas pueden haber sido planeadas para enseñar
+                    lecciones parecidas, o para provocar un crecimiento similar. Puedes encontrar tus motivaciones
+                    como alma en el relato de alguien cuya vida es, al menos en apariencia, totalmente distinta de
+                    la tuya.
+                    LOS RELATOS
+                    Cada relato comienza con una entrevista en la que la persona y yo nos centramos en un
+                    hecho vital concreto. Debes leer estas entrevistas prestándoles mucha atención. A menudo contienen detalles que al principio parecen no estar relacionados con el reto en sí, pero que en las
+                    sesiones con los médiums demostraron ser esenciales para una comprensión total. No relato
+                    las historias personales completas; por lo tanto, puede que en la vida de esas personas no haga
+                    referencia a ciertos espacios de tiempo.
+                    Para hacer este libro tan útil como fuera posible, me concentré en acontecimientos de la
+                    vida normal, y organicé los capítulos según el tipo de dificultad. En algunos aspectos, las historias se apoyan unas en otras, de modo que las primeras te proporcionarán información
+                    metafísica básica que te ayudará a apreciar mejor los relatos siguientes. Por ello, te sugiero
+                    leerlos en el orden que se presentan.
+                    De los muchos médiums y canalizadores con los que he trabajado, considero que las cuatro
+                    que aparecen en estas páginas (Deb De Bari, Glenna Dietrich, Corbie Mitleid, y Staci Wells)
+                    están entre las de mayor talento. Cada una de ellas ha realizado miles de lecturas. En el
+                    apéndice B tenéis toda la información para poneros en contacto con ellas.
+                    
+                    He tenido sesiones personales con todas ellas, y todas fueron extremadamente exactas al
+                    proporcionarme información sobre mi vida que no podrían haber sabido sin tener verdaderas
+                    aptitudes psíquicas, estas aptitudes son distintas en cada una de ellas. Como Corbie me explicó,
+                    los médiums y canalizadores son como los profesores de una universidad: cada uno de ellos tiene
+                    una especialidad concreta. Si asistes a un cóctel de la facultad de biología no te dirigirás al
+                    profesor con una pregunta de sociología, ni pedirás a un becario del departamento de inglés que
+                    resuelva una ecuación matemática. En lugar de ello, tienes en cuenta sus distintas áreas de
+                    especialización, y aprecias lo que cada uno de ellos tiene que ofrecer.
+                    A cada entrevista le sigue una o más sesiones con los médiums. Dije a los entrevistados
+                    que me gustaría comenzar preguntando al médium, "¿Fue este obstáculo planeado antes de
+                    nacer? Y si es así, ¿por qué?". Todos estuvieron de acuerdo en que era un buen comienzo, y las
+                    preguntas que siguieron a continuación brotaron de la respuesta a esa pregunta. En algunos
+                    casos durante las sesiones me permitieron realizar la mayor parte de las preguntas.
+                    Generalmente, cuando la médium Staci Wells no realizaba la lectura principal, le pedí a ella
+                    y a su espíritu guía que hicieran una lectura complementaría. Esta lectura servía para tres
+                    funciones importantes. Primero, nos proporcionaba una confirmación adicional que el reto había
+                    sido efectivamente planeado. Segundo, nos daba información más extensa sobre esa planificación. Tercero, dado que Staci tiene el don de visualizar y escuchar las sesiones de planificación
+                    prenatal, todas sus lecturas (ya fueran primarias o complementarias) nos proporcionaban conversaciones reales de las mismas. Estos diálogos nos han permitido observar el sorprendente
+                    reino espiritual, y nos han hecho partícipes de las esperanzas, sentimientos, y motivaciones de
+                    las almas. Como podrás ver, estas conversaciones se centran exclusivamente en la planificación
+                    de los retos vitales, no porque las almas no planeen otros aspectos de sus vidas, sino porque
+                    Staci y yo pedimos a su guía que nos hiciera partícipes sólo de las partes más relevantes. Los
+                    entrevistados estuvieron presentes en las lecturas primarias, pero no en las complementarias,
+                    aunque estas lecturas se hicieron siempre con el consentimiento de esas personas. Antes de
+                    cada lectura di a Staci el nombre y la fecha de nacimiento del entrevistado, datos que su espíritu
+                    guía necesitaba para acceder a la información sobre esa persona.
+                    En las sesiones de planificación prenatal de las que Staci fue testigo, las almas hablaban
+                    en primera persona; sin embargo, en dos canalizaciones que no fueron conducidas por Staci, un
+                    alma se refirió a sí misma como "nosotros". El espíritu guía de Staci nos explicó que las almas
+                    que decían "yo" estaban centradas sólo en la vida que estaba siendo planeada, mientras que
+                    las almas que decían "nosotros" estaban centradas en sus muchas encarnaciones anteriores.
+                    Tras las sesiones con los médiums, cada relato concluye con mi comentario. En ellos me
+                    baso en mis conocimientos sobre planificación prenatal y metafísica, así como en las muchas conversaciones que he tenido para desarrollar las sesiones con seres espirituales, como espíritus
+                    guía y ángeles.
+                    Tanto las entrevistas personales como las lecturas con los médiums han sido editadas
+                    para darles más claridad; también hemos corregido la sintaxis a fin de hacerlas más inteligibles.
+                    LOS MÉDIUMS Y CANALIZADORES
+                    Los médiums y canalizadores reciben información de formas distintas. Si son
+                    clariaudientes, escuchan los pensamientos de los seres espirituales. Cuando un médium o
+                    canalizador "sintoniza" con una conciencia intangible, lo que hace es muy parecido a sintonizar
+                    el dial de tu radio. Igual que cada cadena tiene una longitud de onda concreta, también la tiene
+                    cada ser con el que hablan. En esos momentos tiene lugar una verdadera comunicación
+                    
+                    telepática. Si los médiums o canalizadores son sensitivos, tienen el don de sentir las emociones
+                    de otros. Clarividencia es la capacidad de ver cosas que han pasado, o que pasarán; clarisapiencia es un conocimiento interior, con frecuencia en forma de sentimiento. El canalizador
+                    suele "hacerse a un lado" para que otra conciencia pueda hablar directamente a través de él.
+                    Entre Deb, Glenna, Corbie y Staci combinan estos dones proporcionándonos una valiosa
+                    información sobre la planificación prenatal de los entrevistados.
+                    Ciertas palabras tienen un significado especial cuando son usadas por los médiums o
+                    canalizadores. Cuando dicen "Capto", "Percibo", o "Siento", podrían estar recogiendo información
+                    a través de alguno de sus dones psíquicos. La gente con frecuencia dice "Siento..." cuando quiere
+                    expresar una emoción. Los médiums y los canalizadores, sin embargo, usan la palabra sentir para
+                    indicar una percepción que va más allá de los sentidos.
+                    Los médiums y los canalizadores se comunican con una gran variedad de seres, entre ellos
+                    los espíritus guía. Un espíritu guía es una entidad muy evolucionada que en la mayoría de los
+                    casos (aunque no en todos) ha tenido muchas encarnaciones físicas. A través de estas
+                    reencarnaciones adquirió una gran sabiduría que ahora le permite actuar como guía para
+                    aquellos que estamos en el plano físico. Los espíritus guía se comunican con nosotros del mismo
+                    modo en el que lo hacen nuestras almas: a través de la inspiración, de los sentimientos, de las
+                    ideas, y de la intuición. Cuando tenemos un "presentimiento" sobre algo, o cuando "simplemente
+                    sabemos" que algo es como es, con frecuencia se trata de comunicaciones de nuestros guías, o
+                    de nuestra alma (también llamada "ser superior"). Por ejemplo, la persona que decide no tomar
+                    un avión porque ha tenido el "presentimiento" de que algo ocurrirá, y de este modo evita un
+                    accidente mortal. Los espíritus guía, que conocen bien nuestros planes de vida, saben si estos
+                    incluyen o no accidentes de avión, y crean estas sensaciones en nosotros. En estos casos se
+                    dice que el Espíritu nos susurra. La meditación es un modo poderoso de calmar la mente para
+                    que podamos oír estos mensajes. Quienes practican habitualmente la meditación son capaces
+                    de captar el flujo de energías no-físicas en el cuerpo, algo que describen como un sonido
+                    parecido al del viento.
+                    LA PLANIFICACIÓN DEL ALMA
+                    Antes del nacimiento mantenemos conversaciones con nuestros espíritus guía, y con el
+                    resto de almas con las que compartiremos nuestra encarnación. Comentamos las lecciones
+                    que esperamos aprender, y cómo las aprenderemos. Cuando Staci accede a estas
+                    
+                    conversaciones y a los lugares donde se mantienen estas conversaciones, suele ver una
+                    habitación en la que las almas que van a encarnarse se reúnen para hablar; una sala
+                    adyacente más pequeña desde la que los guías observan la planificación, y que abandonan
+                    cuando les piden consejo; y una especie de "tablero de ajedrez" u "organigrama" blanco y
+                    negro que se usa para trazar los escenarios de la vida que está por empezar. Los cuadrados
+                    del tablero de ajedrez son las etapas evolutivas de la vida de la persona.
+                    Al principio, cuando Staci y yo comenzamos a trabajar juntos, asumí incorrectamente que
+                    estas imágenes eran metáforas que habían sido puestas en su mente por su espíritu guía para
+                    simbolizar conceptos y procesos más allá de la compresión humana, pero su guía me dijo más
+                    tarde que esas cosas existen realmente. Me explicó que en el reino espiritual existe el acuerdo
+                    entre los seres involucrados en que la planificación prenatal será llevada a cabo en un lugar
+                    concreto, y que se usarán herramientas específicas como ese tablero de ajedrez. Este acuerdo
+                    mutuo, expresado en pensamiento, es lo que da existencia a los instrumentos y a las
+                    ubicaciones que Staci ve.
+                    En una sesión, Staci me proporcionó la siguiente información sobre el lugar en el que las
+                    almas realizan la planificación prenatal:
+                    En este edificio particular hay ocho plantas, con ocho salas de planificación en cada planta.
+                    Me ha dicho [el Espíritu] que esto se debe a que ocho es el número del karma y del destino.
+                    La vibración del ocho se ha utilizado en este edificio para que sirva mejor a sus propósitos.
+                    Este edificio es uno de los ocho que se extienden como pétalos de una flor en una forma
+                    circular. Los edificios son rectangulares. Cada uno tiene ocho plantas, y ocho salas de planificación en el interior de cada planta. Me cuentan que hay doce grupos de edificios así en el
+                    otro lado, y que la mayoría se usan para planificar las vidas en la Tierra. Dicen que muchas
+                    almas prefieren volver al mismo edificio, a la misma planta, y a la misma sala si es posible.
+                    Esto les proporciona una sensación de comodidad y estabilidad, y desde ese único lugar se
+                    sienten más capaces de percibir el transcurso de su evolución en cada vida, y en el tiempo
+                    entre ellas.
+                    Cuando el espíritu guía de Staci le hace llegar la conversación de las sesiones de
+                    planificación prenatal, está accediendo a los Registros Akáshicos, aunque él prefiere la
+                    expresión "Libro de la Vida". Éste es un registro completo de cada una de nuestras
+                    experiencias, actos, palabras, y pensamientos. Cuando los médiums proporcionan, a quienes
+                    acuden a ellos, información sobre sus vidas pasadas, a menudo están accediendo a los Registros Akáshicos. El gran médium americano, Edgar Cayce, usaba estos archivos en las miles
+                    de lecturas que realizó.
+                    Cuando los médiums ven y hablan con seres en espíritu, con frecuencia los describen como
+                    masculinos o femeninos, pero las almas son en realidad una combinación de energías masculinas
+                    y femeninas. Cuando Deb ve al ser querido "fallecido" de un entrevistado con el aspecto que tenía
+                    en su vida fisica, es porque esa conciencia ha elegido aparecer de ese modo. Cuando Staci ve a
+                    un alma masculina o femenina en una sesión de planificación prenatal, es debido a que ese alma
+                    está creando (o en cierto modo, "probándose") la energía de la próxima encarnación (algo a lo que
+                    Staci y su espíritu guía se refieren como "el abrigo de la personalidad").
+                    Esto mismo es lo que ocurre cuando un espíritu guía aparece como masculino o femenino. Los
+                    guías tienen energías tanto masculinas como femeninas, pero pueden identificarse con más
+                    intensidad con un sexo o con el otro y, por lo tanto, eligen presentarse en esa forma.
+                    
+                    En las sesiones de planificación, los seres espirituales usan algunos términos modernos.
+                    Durante una sesión con Staci, pregunté a su espíritu guía si realmente había dicho autoestima, o
+                    si ésa había sido la aproximación más cercana disponible en la mente de Staci. Me confirmó que
+                    lo había hecho. A veces los guías espirituales y otros seres no-físicos hablan sin usar nuestras
+                    reglas gramaticales. El guía de Staci me dijo "No siempre hablamos de un modo que
+                    considerarías gramaticalmente correcto".
+                    El reino del espíritu, en el que planificamos nuestras reencarnaciones y al que volveremos
+                    cuando las hayamos completado, es accesible para nosotros a través de médiums y canalizadores. Son el equivalente en forma humana de los espíritus guía; son compasivos, sensibles, e
+                    intuitivos exploradores del otro lado.
+                    
+                    Capítulo 1
+                    La planificación
+                    prenatal
+                    Es posible que el concepto de planificación prenatal te sorprenda, sobre todo en lo que se refiere
+                    a la programación de acontecimientos dolorosos. Para la mayoría de nosotros, esta noción
+                    supone un modo nuevo y radicalmente distinto de ver el mundo, y nuestro propósito en él. Cuanto
+                    más traumáticos son nuestros retos, más difícil puede resultar entender este concepto. Yo
+                    comprendí, acepté, y finalmente adopté como propia esta idea de un modo lento y por etapas,
+                    sobre todo en lo tocante a los aspectos más dolorosos de mi vida. Con cada paso, sentí la
+                    curación de viejas heridas. La ira y el resentimiento se desvanecieron, y fueron reemplazados por
+                    sentimientos de paz y alegría. Vi en la vida una belleza que anteriormente había permanecido
+                    oculta a mis ojos.
+                    Mi propósito al escribir este libro no es convencerte de la absoluta realidad de la
+                    planificación prenatal, sino ofrecerte una idea que para mí ha sido de gran ayuda. Lo único que
+                    te pido es que consideres esta posibilidad. No tienes que estar convencido de esta idea para
+                    beneficiarte de ella. Sólo tienes que preguntarte, "¿Y si es cierto? ¿Y si realmente planeé esta
+                    experiencia antes de nacer? ¿Por qué lo habría hecho?". Simplemente hacerte estas preguntas
+                    dará un nuevo significado a las dificultades de tu vida, y te impulsará a un viaje hacia el
+                    autodescubrimiento. Ese viaje no exige ninguna creencia concreta en lo que concierne a la
+                    espiritualidad o la metafísica, sólo un cierto interés en el crecimiento personal y en la adquisición
+                    de sabiduría.
+                    En estas páginas leerás las historias de diez personas valientes. Aprenderás lo que
+                    planearon antes de nacer, y por qué lo hicieron. El proceso para comprender la planificación
+                    prenatal es parecido al que tiene lugar cuando observamos una escultura. Si quieres apreciar
+                    realmente una escultura, no puedes verla desde un solo ángulo. Debes caminar a su alrededor,
+                    deteniéndote en algunos puntos para mirar desde una nueva perspectiva, y observar los detalles
+                    que entonces, de repente, se harán visibles.
+                    Cada relato es como una de esas perspectivas. Al observar la planificación prenatal desde diez
+                    ángulos distintos, conseguirás una comprensión más completa e integral de la que tendrías sólo
+                    con la observación de una o dos de sus facetas, o con una conversación estrictamente teórica
+                    sobre este tema.
+                    Te animo a leer las historias con el corazón. El corazón posee un conocimiento más elevado
+                    y una sabiduría mayor que la mente. El análisis intelectual sólo te serviría hasta cierto punto.
+                    
+                    Estos relatos deben ser sentidos. Cuando tú, como alma eterna, planeaste tu vida actual, no te
+                    preocupaste por los conocimientos que podría adquirir tu mente. En lugar de eso, querías
+                    experimentar los sentimientos que generaría una vida en la dimensión física. Las dificultades de
+                    la vida son un medio especialmente poderoso para crear sentimientos que son, por otra parte,
+                    vitales para el autoconocimiento del alma. Estos sentimientos no pueden ser comprendidos por la
+                    mente; de hecho, la mente es una barrera. En muchos sentidos, la vida es un viaje que va
+                    desde la cabeza hasta el corazón. Planeamos las dificultades de nuestra vida para facilitar este
+                    viaje, para abrir nuestros corazones y de este modo poder conocerlos, y valorarlos mejor.
+                    La empatía es la llave que abre la puerta del corazón, y hará posible que comprendas estos
+                    relatos y su significado espiritual. Al igual que fue necesario que las personas que aparecen en
+                    este libro reunieran el valor suficiente para planear sus vidas y para compartirlas contigo, será
+                    necesario que tú también reúnas el valor para empatizar con ellos. Yo creo que la empatía es
+                    curativa. Si buscas la sanación, descubrirás que tu valentía será recompensada.
+                    Este capítulo te proporcionará la información necesaria para apreciar los aspectos
+                    metafísicos de los relatos. Si no estás familiarizado con la metafísica, algunas de estas ideas
+                    pueden parecerte inusuales, igual que me ocurrió a mí. Te pido paciencia. Cuando las veas
+                    ilustradas en estos relatos, adquirirán un significado y una validez mayor, y más aun cuando las
+                    apliques a tus propias vivencias. Este capítulo te dará, además, una visión general de los
+                    puntos comunes que he encontrado en los proyectos de vida de los entrevistados. Con esto
+                    obtendrás los cimientos sobre los que asentar la sabiduría que estas personas han compartido
+                    contigo.
+                    POR QUÉ NOS REENCARNAMOS
+                    La planificación que hacemos antes de nacer es detallada, y tiene un gran alcance. Incluye
+                    la selección de situaciones vitales, pero va mucho más allá. Nosotros elegimos a nuestros
+                    padres (y ellos nos eligen a nosotros), elegimos cuándo y dónde nos reencarnaremos, las
+                    escuelas a las que asistiremos, los hogares en los que viviremos, la gente a la que conoceremos,
+                    y las relaciones que tendremos. Si tienes la sensación de que ya conocías a alguien a quien
+                    acaban de presentarte, es posible que sea verdad. Probablemente, esa persona fue parte de tu
+                    planificación prenatal. Cuando un lugar, un nombre, una imagen o una frase te resulta familiar la
+                    primera vez que lo ves o lo oyes, esa familiaridad es, a menudo, un vago recuerdo de lo que se
+                    planeó antes de la encarnación. En muchas sesiones de planificación, usamos el nombre y
+                    tomamos la apariencia física que tendremos después de nacer. Tales prácticas nos ayudan a
+                    reconocernos unos a otros en el plano físico. El sentimiento de déjá vu se atribuye a menudo a un
+                    suceso de una vida pasada, pero muchas sensaciones de déjá vu son, en realidad, recuerdos de
+                    planes prenatales.
+                    Cuando entramos en el plano terrestre, olvidamos nuestro origen espiritual. Antes de la
+                    encarnación sabemos que esta amnesia autoinducida tendrá lugar. La expresión "tras el velo"
+                    se refiere a este estado de falta de memoria. Como alma divina, olvidas tu verdadera identidad
+                    porque al recordarla más tarde lograrás un conocimiento mucho más profundo de ti mismo.
+                    Para obtener esta profunda conciencia, tenemos que abandonar el reino espiritual (un lugar de
+                    alegría, paz y amor), porque allí no experimentamos ningún contraste. Y sin contraste, no
+                    podemos conocernos totalmente.
+                    Imagínate un mundo en el que sólo hay luz. Si nunca has experimentado la oscuridad, ¿cómo
+                    podrías comprender y apreciar la luz? Es el contraste entre luz y oscuridad lo que lleva a un
+                    conocimiento más profundo. El plano físico nos proporciona este contraste porque es un
+                    
+                    mundo de dualidad: arriba y abajo, caliente y frío, bueno y malo. El dolor en la dualidad nos
+                    permite apreciar mejor la alegría. El caos de la Tierra aumenta nuestra apreciación de la paz. El
+                    odio que podemos encontrar profundiza nuestra comprensión del amor. Si nunca hemos
+                    experimentado estos aspectos de la humanidad, ¿cómo podríamos reconocer nuestra
+                    divinidad?
+                    Imagina que provienes de un lugar en el que suena la música más bella que jamás fuera
+                    creada. Es una música arrebatadora, deslumbrante. La has escuchado siempre, durante
+                    toda tu vida. Nunca ha estado ausente, ni ha estado presente ninguna otra música. Un día te
+                    das cuenta de que, como siempre la has oído, nunca la has escuchado realmente. Es decir,
+                    que nunca la has valorado, porque no has conocido otra cosa. Por ello, decides que te gustaría
+                    poder valorar esta música. ¿Cómo podrías hacerlo?
+                    Una forma de hacerlo sería ir a un lugar en el que la música de tu Hogar no exista. Quizá en
+                    este sitio suene una música distinta, una música que contenga notas discordantes, o estrofas
+                    estridentes. Este contraste te provocaría una nueva apreciación de la música que has escuchado
+                    siempre en tu Hogar.
+                    Otra forma sería ir a un lugar en el que la música de tu Hogar no exista, e intentar recrearla
+                    de memoria. La experiencia de componer esos magníficos sonidos te daría una comprensión
+                    incluso más profunda de su belleza.
+                    Existe una tercera posibilidad, una mucho más desafiante, pero que además contiene una
+                    mayor recompensa. Se te ocurre pensar que podrías obtener un conocimiento realmente
+                    profundo si fueras a un lugar en el que la música de tu Hogar no sonara, y una vez allí
+                    intentaras recrearla pero sólo después de haber olvidado cómo sonaba. La experiencia de
+                    recordar, y después componer la extraordinaria sinfonía de tu Hogar produciría el más rico,
+                    pleno, y extenso conocimiento de su grandeza.
+                    Y con esta misma valentía viajas al mundo que ofrece la tercera opción. Allí escuchas una música
+                    que, al carecer de memoria, crees que es la única que has oído siempre. Algunas canciones son
+                    adorables, pero otras aporrean tus oídos con sus disonancias. Estos tonos desagradables
+                    fomentan el deseo en tu interior (y, finalmente, la resolución) de crear una música original .
+                    Pronto empiezas a escribir tus propias composiciones. Al principio, te distrae la estridente
+                    música de este mundo nuevo. Sin embargo, con el tiempo, a medida que te apartas del estrépito
+                    externo y escuchas las melodías de tu corazón, tus creaciones musicales se hacen más bellas.
+                    Finalmente compones una obra maestra, y cuando la terminas recuerdas algo: la obra maestra
+                    que has escrito es la misma música que sonaba en tu Hogar. Y este recuerdo desencadena
+                    otro: Tú eres esa música. No es algo que oíste fuera de ti mismo; la música eres tú, y tú eres la
+                    música. Y al crearte a ti mismo en un nuevo lugar, llegas a conocerte de un modo que no
+                    hubiera sido posible si no hubieras dejado tu Hogar.
+                    Ésta es la experiencia que desea el alma. El alma es una chispa Divina; la personalidad (el ser
+                    humano) es una parte de la energía del alma en cuerpo físico. La personalidad consiste en unos
+                    rasgos temporales que existen sólo durante la vida física, y un núcleo inmortal que se reúne con el
+                    alma después de la muerte. El alma es algo mucho mayor que la personalidad, aunque cada
+                    personalidad es vital para el alma, y muy apreciada por ella.
+                    En gran medida, la personalidad tiene libre albedrío. Los desafíos de la vida pueden ser, por
+                    tanto, aceptados o rechazados.
+                    
+                    La vida en la Tierra es una etapa en la que la personalidad se ciñe o se desvía del guión que
+                    fue escrito antes del nacimiento. Nosotros elegimos cómo respondemos: con ira y amargura, o
+                    con amor y compasión. Cuando nos damos cuenta de que somos nosotros mismos quienes
+                    hemos planeado nuestras dificultades, la elección es mucho más clara y más fácil de hacer.
+                    Mientras estamos en el cuerpo físico, nuestra alma se comunica con nosotros a través de
+                    los sentimientos. Sentimientos como alegría, paz y emoción nos recuerdan que estamos actuando y pensando de un modo consecuente con nuestra verdadera naturaleza como almas
+                    amorosas. Sentimientos como el miedo y la duda nos sugieren que no lo estamos haciendo.
+                    Nuestros cuerpos son receptores (y transmisores) de energía extremadamente sensibles que
+                    nos dicen, a través de los sentimientos, si hay acuerdo o desacuerdo entre lo que realmente
+                    somos, y el modo en el que nos estamos comportando.
+                    POR QUÉ PLANEAMOS DESAFÍOS
+                    Las dificultades de la vida existen para que podamos experimentar quiénes no somos, antes
+                    de recordar quiénes somos realmente. Es decir, en nuestra vida terrenal exploramos los sonidos
+                    discordantes antes de recrear las sinfonías de nuestro Hogar. Este patrón me quedó claro
+                    mientras llevaba a cabo la investigación para este libro. Yo llamo a esos programas de vida
+                    "planes de aprendizaje a través de los opuestos".
+                    Por ejemplo, un alma profundamente compasiva que desea llegar a conocer en profundidad
+                    la compasión puede elegir encarnarse en una familia disfuncional. Al ser tratada sin compasión,
+                    llegará a apreciar la compasión más profundamente. La ausencia de algo es lo que mejor nos
+                    enseña su valor y su significado. La falta de compasión en el mundo exterior la obligará a
+                    dirigirse al interior, donde recordará su propia compasión. El contraste entre la falta de
+                    compasión en el mundo físico y su compasión interna le proporcionará una comprensión más
+                    profunda de la compasión y, por tanto, de sí misma. Desde la perspectiva del alma, el dolor
+                    inherente a este proceso de aprendizaje es temporal y breve, pero la sabiduría que resulta del
+                    mismo es, literalmente, eterna. El aprendizaje a través de los opuestos está presente en cada
+                    relato de este libro.
+                    Recordar quiénes somos realmente (almas majestuosas, trascendentes y eternas) es un
+                    modo de superar los desafíos de nuestra vida. Por ejemplo, una persona que se identifica con
+                    su cuerpo sentirá una enorme angustia si éste resulta gravemente dañado. Otra persona cuyo
+                    cuerpo soporte el mismo daño, pero que se identifique con el alma, experimentará un sufrimiento
+                    mucho menor. Ya que nuestras dificultades provocan que recordemos que somos almas, el
+                    mismo suceso que inicialmente nos causó sufrimiento puede, al final, aliviarlo. Cambiar el
+                    concepto de uno mismo, dejar de pensar que somos sólo nuestro cuerpo-personalidad, y
+                    comenzar a creer que somos almas, quizá no reducirá el dolor, pero aliviará el sufrimiento. Ese
+                    despertar es el propósito y uno de los profundos beneficios de los desafíos de nuestra vida. El
+                    despertar revitaliza nuestra pasión por la vida, la misma que sentimos antes de reencarnamos.
+                    Es, sencillamente, un motivo de celebración.
+                    Cuando despertamos o respondemos positivamente a nuestros retos y obstáculos, trazamos
+                    un "camino energético" que hace que para otros sea más fácil sobrellevar los suyos, y sanarse
+                    gracias a ellos. Esta idea se basa en la premisa de que todos estamos energéticamente
+                    conectados, y que nos vemos afectados por los demás. Los relatos incluidos en este libro indican
+                    que cada uno de nosotros puede provocar un impacto mucho mayor de lo que imaginamos.
+                    Nuestra capacidad para afectar al mundo de una forma tan contundente es una oportunidad
+                    maravillosa y al mismo tiempo una enorme responsabilidad.
+                    
+                    Cada uno de nosotros es una semilla que fue sembrada en la vibración de nuestro mundo
+                    actual. Cuando elevamos nuestras propias frecuencias por el crecimiento que nos provocan los
+                    acontecimientos de la vida, elevamos la frecuencia del mundo desde el interior. Como una gota de
+                    tinte añadida a un vaso de agua, cada persona altera el color por completo. Cuando creamos
+                    sensaciones de alegría, incluso si lo hacemos mientras vivimos solos en la cima de una montaña,
+                    emitimos una frecuencia que hace que, para los demás, resulte más fácil estar alegre. Cuando
+                    creamos sensaciones de paz, irradiamos una energía que ayuda a que terminen las guerras.
+                    Cuando amamos, hacemos que amar sea más sencillo para los demás, tanto para los que
+                    conocemos como para aquellos que nunca llegarán a saber de nosotros. Quienes somos es, por
+                    tanto, algo mucho más importante que cualquier cosa que vayamos a hacer nunca.
+                    En el capítulo 7 conocerás a Christina y a su espíritu guía, Cassandra. Cassandra dijo esto
+                    sobre el camino energético:
+                    Cuando aceptamos un acontecimiento vital concreto, recibimos la energía curativa de
+                    aquellos que han hecho ese viaje antes. El sendero de luz está pavimentado con una compasión
+                    y un amor sanador que eleva la frecuencia de la persona que camina por él [tras nosotros].
+                    Aprender y sanar por un acontecimiento vital concreto eleva el campo aúrico de aquellos
+                    que han sobrevivido a él. Otros, en su presencia, sabrán que tienen algo que los llena de
+                    esperanza y fe. La experiencia no tiene por qué ser la misma. La frecuencia sanadora puede
+                    empujar al alma hacia delante, pero el alma receptora debe estar preparada para hacerlo.
+                    Incluso si la forma física [del receptor] no cambia o "sana" según los estándares de la Tierra, el
+                    alma asciende.
+                    El sufrimiento es un regalo de proporciones inmensas, tanto para el alma, como para
+                    los demás elegidos a los que se les permite ayudarle en su viaje de sanción. El lenguaje del
+                    sufrimiento es una frecuencia en sí misma. Está en los ojos, en los corazones y en la mente de
+                    los que están en ella. Es profundo y mundano al mismo tiempo. Míralo, créelo, e imparte amor y
+                    compasión a aquellos que los necesitan. Los pequeños actos de consciencia y amabilidad hacen
+                    que la sanación sea posible. Los pensamientos de belleza y gracia pueden ser proyectados y
+                    percibidos incluso a distancia por aquellos a los que pueden beneficiar.
+                    Del mismo modo que nuestro impacto energético se extiende a través de esta dimensión, lo
+                    hace también en otras dimensiones. Verás referencias a las dimensiones "superior" e "inferior".
+                    Superior no significa que sea mejor, e inferior no implica que sea peor. Estos términos se
+                    refieren solamente a la frecuencia. Las dimensiones superiores vibran a frecuencias más
+                    rápidas que la nuestra, y por tanto no son físicas, pero solapan e incorporan dimensiones
+                    inferiores. En resumen, todo es uno. Por esto, nuestras frecuencias individuales, ya sean de
+                    amor o de miedo, fluyen constantemente hacia el exterior, afectando por igual a los seres
+                    espirituales como a otras personas que pueden estar en cualquier parte, incluso lejos de
+                    nosotros.
+                    Cuando leas los relatos, es aconsejable que tengas en mente las limitaciones que el
+                    lenguaje tiene a la hora de explicar algunos conceptos. Por ejemplo, a veces diré que la gente
+                    "viene del" reino espiritual cuando se encarna, y que "vuelve a" ese reino después de la muerte
+                    del cuerpo. Estas palabras y otras parecidas indican un cambio en la percepción, no en el lugar.
+                    No intentan plantean una separación entre las dimensiones. La encarnación no nos aparta
+                    literalmente de nuestro Hogar eterno; en lugar de ello, sencillamente limita nuestra capacidad
+                    para ver la parte intangible del mismo. La muerte, es la disolución del velo que nos oculta el reino
+                    espiritual.
+                    
+                    Los conceptos de unidad y separación son importantes para poder comprender
+                    completamente por qué elegimos experimentar dificultades en nuestra vida. Cuando estamos en
+                    espíritu, tenemos una conciencia continua de nuestro enlace inseparable con todos los demás
+                    seres. Sabemos que somos uno con los demás y, por supuesto, con la totalidad de la creación. La
+                    compasión incondicional y la empatía forman parte de nuestra naturaleza. Aunque tenemos
+                    identidades individuales, no nos percibimos separados del resto de individuos. Este concepto
+                    fundamental resulta paradójico para el cerebro humano que, por su propia estructura, percibe la
+                    ilusión de separación. Cuando, como almas, proyectamos una parte de nuestra energía en los
+                    cuerpos físicos, intencionadamente centramos nuestra atención en el cuerpo, bloqueando de ese
+                    modo la percepción de la unidad. Ser capaces de estrechar nuestra percepción nos permite
+                    planear vidas en las que interpretamos papeles predefinidos, y por lo tanto proporcionando
+                    vivencias y retos a otros. Esperamos poder responder a esos retos con amor. Si somos capaces
+                    de hacerlo, después de la vida física volveremos al espíritu con una comprensión más profunda
+                    de la compasión, de la empatía, y de la unidad que temporalmente habíamos ocultado a nuestra
+                    propia consciencia.
+                    Como indican los relatos, planeamos las dificultades de nuestra vida para alcanzar objetivos
+                    concretos. El objetivo común es la sanación; concretamente la sanación de las energías
+                    "negativas" que han quedado sin resolver en vidas pasadas.
+                    Digamos, por ejemplo, que una persona estuvo consumida por el miedo durante una
+                    encarnación. Al final de esa vida, el individuo puede conservar restos de la energía del miedo,
+                    especialmente si la persona murió mientras experimentaba un gran miedo. La energía de baja
+                    frecuencia del miedo no se puede transportar totalmente a la frecuencia superior del reino
+                    espiritual donde reside el alma, aunque un residuo energético sí podría cruzar. El individuo siente
+                    esta energía y planea una nueva vida en la que se sanará a través de la expresión del amor.
+                    También planeamos actitudes para equilibrar el karma. El karma a veces se conceptualiza
+                    como una deuda cósmica, pero también puede ser descrito como una energía desequilibrada con
+                    otro individuo. Generalmente tenemos karma con miembros de nuestro grupo de almas: otros en
+                    la misma fase evolutiva con quienes hemos compartido muchas vidas. En esas vidas pasadas,
+                    hemos interpretado los papeles de marido, esposa, hija, hijo, hermano, hermana, madre, padre,
+                    amigo íntimo, y enemigo mortal con las mismas almas. Recuerdo el relato real de un padre que
+                    estaba leyendo un cuento antes de dormir a su hija pequeña. Cuando terminó, ella sonrió y dijo,
+                    "Papá, ¿te acuerdas de cuando eras mi hijo, y yo era tu mamá, y te leía cuentos antes de dormir?".
+                    Un alma del grupo podría, por ejemplo, haber tenido una encarnación en la que hubiera
+                    pasado muchos años cuidando de alguien físicamente enfermo. Si el alma que interpretó el
+                    papel de cuidador planea después una vida en la que tenga el desafío de la enfermedad, el alma
+                    que recibió los cuidados podría buscar equilibrar aquel intercambio energético ofreciéndose a
+                    cuidarlo. En cuerpo, sin embargo, ninguna de las almas recordará el plan. La que eligió ser el
+                    cuidador podría sentirse abrumada por la necesidad de hacerse cargo de otra persona, quizá
+                    incluso podría verlo como un castigo por sus malos actos en una vida pasada. En realidad, sin
+                    embargo, no es un castigo; sólo es un deseo de equilibrar el karma. Del mismo modo que hemos
+                    ideado nosotros los papeles que interpretamos, tampoco somos víctimas. No hay nadie a quien
+                    culpar; de hecho, no hay culpa. El universo no nos castiga haciendo que nos ocurran cosas
+                    "malas". Como la gravedad, el karma es una ley neutral e impersonal. Si tropezamos y caemos,
+                    no culpamos a la gravedad ni nos sentimos victimas o castigados por ella. Cuando nos damos
+                    cuenta de que el karma opera del mismo modo, los sentimientos de culpa, victimización y castigo
+                    respecto a los desafíos vitales se disipan, y entonces comprendemos lo que habíamos esperado
+                    aprender, y valoramos de un nuevo modo los desafíos que expanden nuestras almas.
+                    
+                    Comprender el karma nos ayuda a ir más allá de nuestros prejuicios, concretamente en lo
+                    que se refiere a aquellos que han experimentado grandes traumas o percances como la adicción
+                    a las drogas, o la indigencia. Generalmente, estos individuos están viviendo sus encarnaciones y
+                    equilibrando las energías de sus vidas pasadas tal y como lo habían planeado. Sus vidas, que
+                    muchas veces son etiquetadas como "fracasos" desde el punto de vista de la personalidad, a
+                    menudo son éxitos rotundos desde la perspectiva del alma.
+                    La mayor parte de las almas planean estas dificultades vitales para que sean de utilidad a
+                    otros. Este deseo es un aspecto fundamental de nuestra verdadera naturaleza como almas eternas. Cuando estamos en espíritu y somos conscientes de nuestra unidad con los demás, vemos
+                    el servicio como un propósito básico de la vida, y las oportunidades para servir como enormes
+                    bendiciones. Ya que son almas que están equilibrando su karma, muchos de aquellos que
+                    parecen llevar vidas difíciles están, realmente, realizando actos de servicio. Un alma podría
+                    planear, por ejemplo, experimentar el alcoholismo para que otros puedan expresar compasión, y
+                    así conocerse mejor a sí mismos. Los alcohólicos y otros que nos facilitan las experiencias que
+                    buscamos, tienen que soportar algunas de las críticas más duras de la sociedad. ¡Ojalá más
+                    gente supiera esto!
+                    Un trabajador de la luz es alguien cuyo plan de vida está especialmente orientado al
+                    servicio. En general, el término se aplica a cualquiera que esté decidido a ayudar a los demás.
+                    Aunque no es necesario haber planeado grandes retos para ser un trabajador de la luz, muchos
+                    lo han hecho precisamente con la intención de superar esas dificultades para el beneficio de toda
+                    la sociedad. Este tipo de trazado vital no es mejor (ni peor) que cualquier otro. De hecho, dado
+                    el enorme número de reencarnaciones que cada uno de nosotros planeamos, muchos
+                    interpretarán este papel en algún momento.
+                    Naturalmente, planeamos las dificultades de la vida, en parte, para nuestro propio
+                    crecimiento personal. Como almas, aprendemos mucho entre las encarnaciones, pero
+                    asimilamos las lecciones más profundamente en el plano físico. Aprender mientras estamos en
+                    espíritu es similar a un trabajo de clase; la vida en la Tierra es el campo de estudio en el que
+                    aplicamos, probamos, y perfeccionamos ese conocimiento. Es una poderosa experiencia para
+                    el alma.
+                    Finalmente, a pesar de las vivencias concretas que contengan, todos los programas vitales
+                    que he examinado estaban basados en el amor. Cada alma estaba motivada por un deseo de
+                    dar y recibir amor, libre e incondicionalmente, incluso en aquellos casos en los que el alma había
+                    acordado interpretar un papel "negativo" para estimular el crecimiento de otro individuo. Muchas
+                    almas estaban motivadas también por un deseo de recordar el propio amor. Literalmente, somos
+                    amor. Baso esta afirmación no sólo en mi investigación, sino también en mi experiencia personal
+                    directa: la revelación de mi alma que describí en el prefacio. Las dificultades vitales nos dan la
+                    oportunidad de expresar amor, y de este modo conocernos más profundamente a nosotros
+                    mismos como amor, en todas sus muchas facetas: empatía, perdón, paciencia, aceptación, valor,
+                    equilibrio, y confianza. Nuestra experiencia terrenal como amor también toma la forma de
+                    comprensión, serenidad, fe, gratitud y humildad, entre otras virtudes. El amor es el tema principal
+                    de la planificación prenatal y, por tanto, el tema principal de este libro.
+                    Al entrar en el plano físico, somos un amor que se oculta temporalmente a sí mismo.
+                    Cuando recordamos quienes somos realmente, nuestra luz interior, nuestro amor, brilla para
+                    que todos lo vean.
+                    Yo creo que ésa es la razón por la que estamos aquí.
+                    26
+                    </p>
+                </div>
+                
+            </div>
+             
+            <span>
+            <button id="hablar" onclick="hablar()">Escuchar/parar libro</button>
+            <button id="aumentar" onclick="aumentarTamanioTexto()">Agrandar/disminuir texto</button>
+            </span>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &#169</p>
+    </footer>
+
+    </div>
+</body>
+</html>

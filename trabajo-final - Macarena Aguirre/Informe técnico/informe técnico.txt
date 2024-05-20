@@ -1,0 +1,15 @@
+En mi caso para desarrollar esta página web por ejemplo me sucedió que cuando al menú que va en el header le puse position:sticky me dejaba un espacio en blanco entre justamente el menú y los demás div, por eso tuve que usar position:relative en todos ellos para poder acomodarlos y en el header un z-index:1000 (esto lo invesigué por aparte) porque también me ocurría que cuando le ponía el position:relative a los demás, el header desaparecía, es como que pasaba por detrás de los otros div.
+
+Otra dificultad que tuve es que no sabía como hacer los marcadores de página, por lo tanto se me ocurrió hacer un resaltador de texto con javascript para que las páginas de los libros puedan quedar marcadas de alguna forma por el usuario y para poder hacer esto, tuve que copiar de un pdf el texto y ponerlo en un párrafo de etiqueta <p></p>.
+
+También, en mi caso al haber puesto un gap de 3px en la parte del grid de cada uno de los html de mi proyecto, cuando le puse un borde sólido negro a cada una de las áreas del grid, se me desacomodaban algunas cosas, asi que los tuve que corregir de maner individual.
+
+Casi al final, cuando agregué el texto de la descripción de los libros, se me desacomodó otra vez porque yo al tener todo con lorem, todo tenía el mismo tamaño y se veía parejo, pero al poner las frases todo se desacomodó otra vez y ahí me di cuenta de la importancia de poner el alto y el ancho a los contenedores donde estaban las frases, y eso solucionó el problema.
+
+Otros problemas menores por ejemplo a veces no veía reflejado el estilo del css en mi html o tampoco veía los eventos del javascript pero porque no había puesto bien el link de ellos en el html. 
+
+En el caso del html de nombre notas, lo usé como muestra para los botones de agrandar y disminuir texto, usar el speech para el texto y agregar las notas mientras la persona va leyendo. Es el único lugar donde usé javascript por motivos de tiempo.
+
+Ya casi al final me di cuenta que podría haber usado un solo archivo css con los estilos del header y botones ya que son los mismos para todo el sitio, lo que hubiera reducido bastante el código.
+
+Por motivos de tiempo también algunas palabras en el código no son representativas, porque una vez que un html me salía bien lo copiaba tal cuál como estaba y lo empezaba a modificar según lo que necesitaba, por ejemplo el html notas es una copia del html libro1 solo que en la parte de el menú del costado en libro1, en notas le puse el textarea para escribir y el div donde se muestran las notas. Y así en todo el código, lo fui reciclando.
